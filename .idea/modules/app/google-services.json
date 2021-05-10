@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "448768970350",
+    "project_id": "ask-doctor-694bb",
+    "storage_bucket": "ask-doctor-694bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448768970350:android:0462312cd33b8d4363a07f",
+        "android_client_info": {
+          "package_name": "com.example.askdoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448768970350-1kpqnd5bb6jitba6gasvri0okv4ado5r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.askdoctor",
+            "certificate_hash": "f068b088c0e05425a62569bce45d76753868ad69"
+          }
+        },
+        {
+          "client_id": "448768970350-0ssfq0l4m59o22id4q96lhe9ceh0nfk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC76tXoA96h9rUTkEZZMNpnhfrhw4i7CL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448768970350-0ssfq0l4m59o22id4q96lhe9ceh0nfk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

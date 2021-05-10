@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "37387286090",
+    "firebase_url": "https://opd-app-askdoctor-default-rtdb.firebaseio.com",
+    "project_id": "opd-app-askdoctor",
+    "storage_bucket": "opd-app-askdoctor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37387286090:android:7d4631b84f6764d374d8b3",
+        "android_client_info": {
+          "package_name": "com.example.askdoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37387286090-lgmldif6u2abshep7ftfp3rlqu2man0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANU5H3cg15H0g8Cb9tIbkQrUCwtKIdM4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37387286090-lgmldif6u2abshep7ftfp3rlqu2man0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
