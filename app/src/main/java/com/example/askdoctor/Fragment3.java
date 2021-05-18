@@ -1,0 +1,37 @@
+package com.example.askdoctor;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+public class Fragment3 extends Fragment {
+
+    private TextView login;
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View rootview = inflater.inflate(R.layout.fragment3_layout,container,false);
+
+        login = (TextView) rootview.findViewById(R.id.loginnappoint);
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switch (v.getId()) {
+                    case R.id.loginnappoint:
+                        startActivity(new Intent(getContext(),LoginActivity.class));
+                        break;
+                }
+            }
+        });
+        return rootview;
+
+
+    }
+}
