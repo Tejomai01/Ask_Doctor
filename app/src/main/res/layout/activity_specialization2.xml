@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/wp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:text="Paediatrician"
+        android:paddingLeft="1dp"
+        android:textStyle="bold"
+        android:layout_marginTop="38dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:text="Available Doctors For Selected Specialization..."
+        android:paddingLeft="1dp"
+        android:layout_marginTop="28dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/dr3"
+        android:layout_width="310dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_2"
+        android:text="1.Dr M.Rahul"
+        android:textSize="25dp"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/dr4"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="2.Dr Rakesh"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_2"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
+
+
+
+
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wp"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Connect with us:"
+        android:layout_gravity="center_horizontal"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:paddingLeft="2dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        />
+        <TextView
+        android:layout_width="336dp"
+         android:layout_height="wrap_content"
+         android:text="For support or any querries"
+         android:paddingLeft="2dp"
+            android:layout_marginTop="9dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="27dp"
+         android:textColor="#000000"
+    />
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Email us at "
+        android:paddingLeft="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="26dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="support@askdoctor.com"
+        android:paddingLeft="2dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="26dp"
+        android:textColor="#00008B"
+        />
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Contact us at"
+        android:paddingLeft="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="26dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="040-24681903"
+        android:paddingLeft="2dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="26dp"
+        android:textColor="#00008B"
+        />
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:layout_gravity="center_horizontal"
+        android:textSize="26dp"
+        android:paddingLeft="2dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="17/F,Peddar Street,Mathura Road,Gautam Puri Sarita Vihar,Delhi-110076"
+        android:layout_gravity="center_horizontal"
+        android:textSize="26dp"
+        android:paddingLeft="2dp"
+        android:textColor="#00008B"
+        />
+
+    <Button
+        android:id="@+id/loginnappoint"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#0492C2"
+        android:text="Go ahead and Login!"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+</LinearLayout>

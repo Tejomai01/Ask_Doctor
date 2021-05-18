@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp"
+    tools:context=".physician1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="Name : Dr A.Tina"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="38dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="Experience : 18yrs"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="38dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:text="Education : MBBS,MD  (dermatology)"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="38dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="Shift : Morning"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="38dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Back"
+        android:layout_marginRight="230dp"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:textColor="@color/blue"/>
+</LinearLayout>

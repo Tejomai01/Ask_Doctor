@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/wp2"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="22dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:clipToPadding="false">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardiology"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="8dp"
+            android:orientation="vertical"
+            android:paddingTop="18dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Cardiology"
+                android:textColor="@color/black"
+                android:textSize="22dp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circlebackground"
+                android:src="@drawable/h6"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:text="For heart and blood pressure problems"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chest pain,Anxiety,High BP"
+                android:textColor="@color/black"
+                android:paddingTop="2dp"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/paediatrics"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:orientation="vertical"
+                android:paddingTop="18dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Paediatrics"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circlebackground"
+                    android:src="@drawable/p1"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="For children's health care"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Injury,infection,developmental delay"
+                    android:textColor="@color/black"
+                    android:textSize="10.5dp"
+                    android:padding="2dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:clipToPadding="false">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/physician"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:orientation="vertical"
+                android:paddingTop="18dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:text="General Physician"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circlebackground"
+                    android:src="@drawable/gp8"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="For any common health issues"
+                    android:textSize="15dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Fever,headache,cold"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                   android:paddingLeft="9dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/derma"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:orientation="vertical"
+                android:paddingTop="18dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Dermatology"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circlebackground"
+                    android:src="@drawable/d2"
+                  android:layout_gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="For skin and hair problems"
+                    android:textSize="15dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Skin rash,acne,skin patch"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:clipToPadding="false">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ortho"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:orientation="vertical"
+                android:paddingTop="18dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Orthopaedics"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circlebackground"
+                    android:src="@drawable/o1"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="For disorders of masculoskeletal system"
+                    android:textSize="11dp"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Skeletal deformity,Bone fracture,Ligament tear"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
+
+
